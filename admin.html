@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Аз жаргалын тоглоом — демо админ самбар.">
+    <title>Админ самбар — Аз жаргалын тоглоом</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="admin">
+    <svg class="svg-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="icon-arrow" viewBox="0 0 24 24">
+            <path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"/>
+        </symbol>
+        <symbol id="icon-close" viewBox="0 0 24 24">
+            <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/>
+        </symbol>
+    </svg>
+
+    <main id="adminApp"></main>
+
+    <div class="page-overlay" id="pageOverlay" data-action="close-panels"></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"><span class="toast-icon">✓</span><span id="toastMessage">Амжилттай</span></div>
+    <button class="back-to-top" id="backToTop" aria-label="Хуудасны дээд хэсэгт буцах">↑</button>
+
+    <noscript><div class="noscript-message">Энэ удирдлагын самбар JavaScript-ийн дэмжлэгтэй.</div></noscript>
+
+    <script src="script.js"></script>
+</body>
+</html>
